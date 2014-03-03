@@ -2,7 +2,7 @@
 
 pkgname=gush
 pkgver=1.3.8
-pkgrel=3
+pkgrel=5
 pkgdesc="Rapid workflow for GitHub project maintainers and contributors"
 url="http://gushphp.org"
 arch=('x86_64' 'i686')
