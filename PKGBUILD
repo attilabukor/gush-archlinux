@@ -24,6 +24,9 @@ build() {
   patch -p0 <../../box.json.dist.patch
   patch -p0 <../../Application.php.patch
   php-box build
+
+  # black magic to fix the phar before changing it's owner to root
+  ./gush.phar --version
 }
 
 package() {
