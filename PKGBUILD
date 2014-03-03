@@ -2,7 +2,7 @@
 
 pkgname=gush
 pkgver=1.3.8
-pkgrel=2
+pkgrel=3
 pkgdesc="Rapid workflow for GitHub project maintainers and contributors"
 url="http://gushphp.org"
 arch=('x86_64' 'i686')
@@ -14,7 +14,7 @@ source=("https://github.com/gushphp/gush/archive/v${pkgver}.tar.gz"
   'box.json.dist.patch'
   'Application.php.patch')
 md5sums=('50fb6c842c1edc38189c49b8c47a8a19'
-         '3eeb024c10db7d53b0ead6f1e702ea3b'
+         '8af0a3be3731eec0d034e6334c741ced'
          '1ac5c23f8ec3a91f18066d1ab591a215'
          'ab531d50ac9577b15b18c17729d3b2e5')
 
